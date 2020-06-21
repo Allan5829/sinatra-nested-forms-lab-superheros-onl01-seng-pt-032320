@@ -1,6 +1,4 @@
 <h3>Name: <%= @team.name %></h3><br>
 <h4>Motto: <%= @team.motto %></h4>
 
-    <p>Hero: <%= @members.1.name %></p><br>
-    <p>Hero Power: <%= @members.power %></p><br>
-    <p>Hero Bio: <%= member.bio %></p><br>
+    <p>Hero: <%= params["team"]["members"] %></p><br>
